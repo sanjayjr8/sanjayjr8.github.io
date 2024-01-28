@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjay's Portfolio</title>
+    <style>
+        /* Reset CSS */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+
+        /* Header Styles */
+        header {
+            background-color:blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .nav-links {
+            list-style-type: none;
+            margin-top: 20px;
+        }
+
+        .nav-links li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links li a:hover {
+            color: #ff9900;
+        }
+
+        /* Main Content Styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .profile-section {
+            flex-basis: 30%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+
+        .profile-details h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .profile-details p {
+            margin-bottom: 10px;
+        }
+
+        .about-section,
+        .skills-section,
+        .contact-section {
+            flex-basis: calc(70% - 40px);
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .about-section h2,
+        .skills-section h2,
+        .contact-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .skills-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills-list li {
+            margin-bottom: 5px;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: blue;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Sanjay's Portfolio</h1>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="profile-section">
+            <img class="profile-img" src="https://media.licdn.com/dms/image/D5603AQFy8m3_t4HvSw/profile-displayphoto-shrink_400_400/0/1703328671122?e=1712188800&amp;v=beta&amp;t=seQi0ZRU8nRJViNSpq3eY0gRGwfUf7S0JM-XBepl0Vc" height="200" alt="Sanjay J" id="ember529" class="evi-image ember-view profile-photo-edit__preview">
+            <div class="profile-details">
+                <h2>Sanjay</h2>
+                <p>B.Tech Undergraduate Scholar at VIT Chennai</p>
+                <p>Phone: 8733939012</p>
+                <p>College: VIT Chennai</p>
+                <p>Age: 20 years</p>
+                <p>Aspiring UPSC Aspirant</p>
+                <p>Languages: Tamil, English, Telugu</p>
+                <p>Hobbies: Cricket</p>
+            </div>
+        </div>
+        <div class="about-section" id="about">
+            <h2>About Me</h2>
+            <p>I am a B.Tech Undergraduate Scholar at VIT Chennai . My career aspirations are not childhood dreams but rather a work of consistent
+absorption of knowledge and learning about my interest domain. My interest in
+Computer science engineering started with my curiosity in programming, which lays the
+base for all  devices in the world .Growing curiosity and my hunger for
+knowledge saw me opting for Computer Engineering in VIT
+university , Chennai .From then onwards , i started understanding my domain more
+deeply which grew into admiration and passion  . I am also an aspiring UPSC aspirant with great
+                knowledge in current affairs and political matters. Fluent in Tamil, English, and Telugu. Sanjay's. Authored a research paper in IEEE CONFERENCE ICRTAC 2023.
+                hobbies include playing cricket.</div>
+        <div class="skills-section" id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+            </ul>
+        </div>
+        <div class="contact-section" id="contact">
+            <h2>Contact 📱</h2>
+            <p>Phone: 9282159499</p>
+            <p>Email: 📧 sanjay.j2022@vitstudent.ac.in</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sanjay | Designed by Sanjay</p>
+    </footer>
+</body>
+
+</html>
